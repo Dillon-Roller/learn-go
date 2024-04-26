@@ -2,8 +2,7 @@ package main
 
 import "fmt"
 
-import "rsc.io/quote"
-
 func main() {
-	fmt.Println(quote.Go())
+	s := []int{3, 4, 5};
+	fmt.Println(s);
 }
