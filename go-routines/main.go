@@ -14,6 +14,7 @@ func squareArray(nums []int, ch chan<- int, wg *sync.WaitGroup) {
 }
 
 func main() {
+	test123
 	nums := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
 	ch := make(chan int, len(nums))
 	var wg sync.WaitGroup
